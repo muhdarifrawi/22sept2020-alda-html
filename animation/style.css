@@ -1,0 +1,31 @@
+html,body{
+    margin:0;
+}
+
+#main{
+    height:100vh;
+    width:100vw;
+    background-color:pink;
+}
+
+#circle{
+    height:200px;
+    width:200px;
+    border-radius:100px;
+    background-color:yellow;
+    animation-name:ball-movement;
+    animation-duration:3s;
+    animation-fill-mode:forwards;
+    position:relative;
+}
+
+@keyframes ball-movement{
+    0%{
+        left:0;
+        top:0;
+    }
+    100%{
+        left:80vw;
+        top:80vh;
+    }
+}
