@@ -1,0 +1,32 @@
+.container{
+    /* background-color:lightblue; */
+}
+
+.section1{
+    height:100vh;
+    /* background-color:rgb(140, 240, 120); */
+}
+
+.jumbotron{
+    /* background-color:transparent; */
+    background-image:url("/images/bbt.jpg");
+    background-position:center;
+    background-size:cover;
+    width:100%;
+    padding-top:30vh;
+
+}
+
+.section2{
+    height:100vh;
+    
+    /* background-color:rgb(29, 238, 210); */
+}
+
+.carousel-caption{
+    color:black;
+}
+
+.carousel-control-next-icon, .carousel-control-prev-icon{
+    background-color:black;
+}
